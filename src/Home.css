@@ -1,0 +1,65 @@
+.home{
+    position: absolute;
+    width: 100%;
+    min-height: 85vh;
+    color: #fff;
+    z-index: 2;
+
+}
+
+.home > h1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.home > h3{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    margin-top:  6px;
+    font-size: 28px;
+}
+
+.btn{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.b1{
+    height: 50px;
+    width: 180px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 60px
+}
+
+.b2{
+    height: 50px;
+    width: 180px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    transition: 0.2s;
+    margin-top: 45px 
+}
+
+.b1:hover{
+    letter-spacing: 7px;
+}
+
+.b2:hover{
+    letter-spacing: 6px;
+}
+
+.text-link{
+    color:inherit;
+    text-decoration: inherit;
+}
+

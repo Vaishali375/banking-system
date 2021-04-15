@@ -1,0 +1,14 @@
+.footer {
+    position: relative;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(57, 61, 57, 1);
+    margin-top: 85vh;
+}
+
+p{
+    color: white;
+    text-align: center;
+    margin: auto;
+}

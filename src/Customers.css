@@ -1,0 +1,37 @@
+.cus__container{
+    width: 850px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 9px;
+    border: 2px solid lightgray;
+    padding: 10px;
+    background-color: lightgray;
+    opacity: 0.9;
+}
+
+.customers > h2{
+    margin: 15px 15px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+th{
+    width: 750px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+td{ 
+    width: 750px;
+    padding-left: 40px;
+    padding-top: 8px;
+}
+
+.customers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
